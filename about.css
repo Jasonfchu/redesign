@@ -1,0 +1,9 @@
+.marg {
+  margin: 25px;
+}
+.round img {
+  border-radius: 50%;
+}
+.cent {
+  text-align: center;
+}

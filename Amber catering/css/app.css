@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Work+Sans');
+
+header{background-color: #657f38; font-family: 'Work Sans', sans-serif;}
+body{font-family: 'Hind', sans-serif;
+background-color:white;
+background-image: image(food.jpg);}
+h1, h2, h3, h4, h5, h6{font-family: 'Work Sans', sans-serif;}
+h2{font-size: 1.35rem;}
+
+.logo {text-align: center;}
+.menu {font-size: 1.4rem;}
+.link{color: white;}
+.link-footer{color: black;}
+footer{text-align: center;
+margin-top: 150px;
+
+float: left;}
+rgb(162, 162, 162)
+.food{
+  padding-left: 85px;
+
+}
+#imgright{
+  float: right;
+  border: 1px solid #000;
+}
+#imgleft{
+  float: left;
+    border: 1px solid #000;
+}
+#imgcenter{
+  float: inherit;
+  background-size: cover;
+  text-align: center;
+
+}
+
+
+p{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 90px;
+  margin: auto;
+font-family: serif;
+
+  }
+
+
+
+h7{
+font-family: 'Patua One', cursive;
+font-size: 26px;
+text-align: center;
+padding-left: 210px;
+}
+
+h10{
+font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  font-size: 26px,
+  text-align: center;
+  padding-left: 180px;
+}
+
+.text_over_image{
+
+    top: 50px;
+    float: inherit;
+    padding-bottom: 80px;
+    }
+    .wrap{
+        width: 1060px;
+        margin: auto;
+        }
+p.one{
+  padding:0px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  color: blue;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    margin-top: 400px;
+    margin-right: 7px;
+}

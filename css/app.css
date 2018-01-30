@@ -9,6 +9,9 @@ h2{font-size: 1.35rem;}
 .menu {font-size: 1.4rem;}
 .link{color: white;}
 .link-footer{color: black;}
+.link:hover{color:orange;}
+button:hover{color:orange;}
+.menu:hover{color:orange;}
 .yelp{text-align: center;}
 .menu-list{text-align: center;}
 .menu-title{text-align: center;}

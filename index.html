@@ -15,38 +15,40 @@
         <header class="grid-x grid-padding-x align-justify">
           <h1 class="cell logo"> <img src="images/logo.png" alt="logo"> </h1>
 
-          <div data-responsive-toggle="example-animated-menu" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle></button>
-            <div class="title-bar-title">Menu</div>
+          <div class="title-bar menu-toggle" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon menu-toggle" type="button" data-toggle="example-menu"></button>
+            <div class="title-bar-title menu-toggle">Menu</div>
           </div>
-
-          <div class="menu menu-list" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
-            <nav class="menu-list">
-              <ul class="dropdown menu" data-dropdown-menu>
-                <li> <a href="index.html" class="link"> HOME </a></li>
-                <li>
-                  <a href="menu.html" class="link"> MENU </a>
-                  <ul class="menu vertical">
-                    <li><a href="menu.html#lunch"> Lunch Specials </a></li>
-                    <li><a href="menu.html#appetizers"> Appetizers </a></li>
-                    <li><a href="menu.html#soups"> Soups </a></li>
-                    <li><a href="menu.html#chef"> Chef's Specials </a></li>
-                    <li><a href="menu.html#entrees"> Entrées </a></li>
-                    <li><a href="menu.html#beverages"> Beverages </a></li>
+            <nav class="cell">
+              <div id="example-menu">
+                <div class="top-bar-left">
+                  <ul class="menu vertical medium-horizontal align-center dropdown menu" data-dropdown-menu>
+                    <li> <a href="index.html" class="link"> HOME </a></li>
+                    <li>
+                      <a href="menu.html" class="link"> MENU </a>
+                      <ul class="menu">
+                        <li><a href="menu.html#lunch"> Lunch Specials </a></li>
+                        <li><a href="menu.html#appetizers"> Appetizers </a></li>
+                        <li><a href="menu.html#soups"> Soups </a></li>
+                        <li><a href="menu.html#chef"> Chef's Specials </a></li>
+                        <li><a href="menu.html#entrees"> Entrées </a></li>
+                        <li><a href="menu.html#beverages"> Beverages </a></li>
+                    </li>
                   </ul>
                 </li>
                 <li> <a href="catering.html" class="link"> CATERING </a></li>
                 <li> <a href="about.html" class="link"> ABOUT US </a></li>
               </ul>
+            </div>
+            </div>
             </nav>
-          </div>
+
         </header>
 
         <!-- start content section here -->
-        <br>
         <div class="grid-x grid-margin-x grid-padding-x">
 
-          <div class="cell orbit" role="region" aria-label="Home Page Pictures" data-orbit>
+          <div class="cell orbit home-images" role="region" aria-label="Home Page Pictures" data-orbit>
             <div class="orbit-wrapper">
               <div class="orbit-controls">
                 <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -86,28 +88,27 @@
               <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
             </nav>
           </div>
+        </div>
 
-          <br>
-          <br>
-          <br>
+        <div class="grid-x grid-padding-x grid-margin-x align-center">
+            <div class="overlay cell small-3 medium-3 large-4">
+              <a href="http://eat24hrs.com/restaurants/order2/menu.php?id=48191" target="blank">
+                <img src="menu-images/button-1.png" alt="Order Online">
+              </a>
+            </div>
 
-          <div class="grid-x grid-padding-x grid-margin-x align-center">
-            <div class="overlay cell small-3 medium-3 large-3">
-              <a href="http://eat24hrs.com/restaurants/order2/menu.php?id=48191" target="blank"> <img src="menu-images/button-1.png" alt="Order Online"> </a>
+            <div class="overlay cell small-3 medium-3 large-4">
+              <a href="about.html" target="blank">
+                <img src="menu-images/button-2.png" alt="Contact Us">
+              </a>
             </div>
-            <div class="overlay cell small-3 medium-3 large-3">
-              <a href="about.html" target="blank"> <img src="menu-images/button-2.png" alt="Contact Us"> </a>
-            </div>
-            <div class="overlay cell small-3 medium-3 large-3">
-              <a href="https://www.google.com/maps/dir/''/veggie+lee/@37.6443073,-122.174562,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808f91498efe4341:0xd8bf8c4c37f781e1!2m2!1d-122.104522!2d37.644328"target="blank"> <img src="menu-images/button-3.png" alt="Visit Us"> </a>
+            <div class="overlay cell small-3 medium-3 large-4">
+              <a href="https://www.google.com/maps/dir/''/veggie+lee/@37.6443073,-122.174562,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808f91498efe4341:0xd8bf8c4c37f781e1!2m2!1d-122.104522!2d37.644328"target="blank">
+                <img src="menu-images/button-3.png" alt="Visit Us">
+              </a>
             </div>
           </div>
 
-          <br>
-
-        </div>
-        <br>
-        <br>
         <!-- start footer section here -->
         <footer class="footer grid-x grid-padding-x grid-margin-x">
           <p class="cell">

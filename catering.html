@@ -7,7 +7,6 @@
     <title> Veggie Lee | A Vegan Restaurant</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/catering.css">
   </head>
   <body>
       <div class="grid-container">
@@ -15,51 +14,89 @@
         <!-- start header section here -->
         <header class="grid-x grid-padding-x align-justify">
           <h1 class="cell logo"> <img src="images/logo.png" alt="logo"> </h1>
+
           <nav class="cell">
-            <ul class="menu align-center">
-              <li> <a href="index.html" class="link"> HOME </a></li>
-              <li>
-                <ul class="dropdown menu" data-dropdown-menu>
-                  <li>
-                    <a href="menu.html" class="link"> MENU </a>
-                    <ul class="menu">
-                      <li><a href="menu.html#lunch"> Lunch Specials </a></li>
-                      <li><a href="menu.html#appetizers"> Appetizers </a></li>
-                      <li><a href="menu.html#soups"> Soups </a></li>
-                      <li><a href="menu.html#chef"> Chef's Specials </a></li>
-                      <li><a href="menu.html#entrees"> Entrées </a></li>
-                      <li><a href="menu.html#beverages"> Beverages </a></li>
-                  </li>
-                </ul>
-              </li>
-              <li> <a href="catering.html" class="link"> CATERING </a></li>
-              <li> <a href="about.html" class="link"> ABOUT US </a></li>
-            </ul>
-          </nav>
+          <div class="title-bar menu-toggle" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon menu-toggle" type="button" data-toggle="example-menu"></button>
+            <div class="title-bar-title menu-toggle">Menu</div>
+          </div>
+              <div id="example-menu">
+                <div class="top-bar-left">
+                  <ul class="menu vertical medium-horizontal align-center dropdown menu" data-dropdown-menu>
+                    <li> <a href="index.html" class="link"> HOME </a></li>
+                    <li>
+                      <a href="menu.html" class="link"> MENU </a>
+                      <ul class="menu">
+                        <li><a href="menu.html#lunch"> Lunch Specials </a></li>
+                        <li><a href="menu.html#appetizers"> Appetizers </a></li>
+                        <li><a href="menu.html#soups"> Soups </a></li>
+                        <li><a href="menu.html#chef"> Chef's Specials </a></li>
+                        <li><a href="menu.html#entrees"> Entrées </a></li>
+                        <li><a href="menu.html#beverages"> Beverages </a></li>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="catering.html" class="link"> CATERING </a></li>
+                <li> <a href="about.html" class="link"> ABOUT US </a></li>
+              </ul>
+            </div>
+            </div>
+            </nav>
+
         </header>
 
         <!-- start content section here -->
         <div class="grid-x grid-margin-x grid-padding-x">
 
-          <img id="imgleft"src="menu-images/food9.jpg"alt="">
+        <div class="cell catering-title">
+          <h3> BANQUET MENU </h3>
+          <h4> Entree Selections Per 10 Guest</h4>
+          <p>
+            <i> $113 per table plus tax & 15% gratuity
+            <br>
+            For your convenience, please contact us at least three weeks in advance.
+            <br>
+            Thank you! </i>
+          </p>
+        </div>
+
+        <div class="cell imgleft medium-4 large-4">
+          <img src="images/food9.jpg" alt="Food">
+        </div>
 
 
-           <img id="imgright"src="menu-images/food10.jpg"alt="">
+        <div class="cell medium-4 large-4">
+            <p class="catering-menu">
+              Vegan Shark Fin w/ Bamboo Fungus Soup
+              <br>
+              <br>
+              Cold Bean Curd Roll and Seaweed
+              <br>
+              <br>
+              Salt and Pepper Vegan Chicken and Basil
+              <br>
+              <br>
+              Vegan Prawns w/ Fresh Mushrooms
+              <br>
+              <br>
+              Vegan Sea Cucumber w/ Fresh Mushrooms
+              <br>
+              <br>
+              Pea Leaves w/ Abalone Mushrooms
+              <br>
+              <br>
+              Thai Style Fish Fillet
+              <br>
+              <br>
+              Vegan Salted Fish and Chicken Fried Rice
+              <br>
+              <br>
+            </p>
+          </div>
 
-
-
-                 <h7> Banque Menu </h7><br>
-           <h10> Entree Selections Per 10 Guest</h10><br>
-             <p>Vegan Shark Fin w/ Bamboo Fungus Soup<br>
-             Cold Bean Curd Roll and Seaweed<br>
-             Salt and Pepper Vegan Chicken and Basil<br>
-             Vegan Prawns w/ Fresh Mushrooms<br>
-             Vegan Sea Cucumber w/ Fresh Mushrooms<br>
-             Pea Leaves w/ Abalone Mushrooms<br>
-             Thai Style Fish Fillet<br>
-             Vegan Salted Fish and Chicken Fried Rice</br>
-             <i>$113 per table plus tax & 15% gratuity</i><br>
-<i>For your convince, please contact us at least three weeks in advanced. Thank you!</i><br></p>
+        <div class="cell imgright medium-4 large-4">
+          <img src="images/food10.jpg" alt="Food">
+        </div>
 
         </div>
         <!-- start footer section here -->

@@ -3,24 +3,90 @@
 header{background-color: #657f38; font-family: 'Work Sans', sans-serif;}
 
 body{font-family: 'Hind', sans-serif; background-color: white;}
+
 h1, h2, h3, h4, h5, h6{font-family: 'Work Sans', sans-serif;}
+
 h2{font-size: 1.35rem;}
-
-.logo {text-align: center;}
-.menu {font-size: 1.3rem;}
-.link{color: white;}
-.link-footer{color: black;}
-.yelp{text-align: center;}
-.menu-list{text-align: center;}
-.menu-title{text-align: center;}
-.menu-toggle{background-color: #657f38;}
-.home-images{padding-top: 2em;}
-
-.overlay:hover {
-    opacity: 0.7;
-}
 
 footer{
   text-align: center;
   padding-top: 2em;
+}
+/*home page css*/
+.logo {
+  text-align: center;
+}
+.menu {
+  font-size: 1.3rem;
+}
+.link {
+  color: white;
+}
+.link-footer {
+  color: black;
+}
+.yelp {
+  text-align: center;
+}
+.menu-list {
+  text-align: center;
+}
+.menu-title {
+  text-align: center;
+}
+.menu-toggle {
+  background-color: #657f38;
+}
+.home-images {
+  padding-top: 2em;
+}
+.overlay:hover {
+  opacity: 0.7;
+}
+/*menu css*/
+.back-to-top {
+  background-color: #657f38;
+  color: white;
+  position:fixed;
+  bottom: 2em;
+  right: 2em;
+}
+
+/*about page css*/
+.marg {
+  margin: 25px;
+}
+.round img {
+  border-radius: 50%;
+  padding-bottom: 1em;
+}
+.cent {
+  text-align: center;
+}
+/*catering page css*/
+
+.imgright{
+  padding-bottom: 1em;
+  text-align: center;
+}
+.imgleft{
+  padding-bottom: 1em;
+  text-align: center;
+}
+.catering-title{
+  text-align: center;
+  padding-bottom: 1em;
+}
+.catering-menu{
+  text-align: center;
+  margin: auto;
+  }
+
+h7{
+  text-align: center;
+}
+
+h10{
+  font-style: bold;
+  text-align: center;
 }

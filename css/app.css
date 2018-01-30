@@ -6,27 +6,21 @@ body{font-family: 'Hind', sans-serif; background-color: white;}
 
 h1, h2, h3, h4, h5, h6{font-family: 'Work Sans', sans-serif;}
 
-<<<<<<< HEAD
 h2{font-size: 1.35rem;}
-=======
-.logo {text-align: center;}
-.menu {font-size: 1.3rem;}
-.link{color: white;}
+
 .link-footer{color: black;}
+
 .link:hover{color:orange;}
+
 button:hover{color:orange;}
+
 .menu:hover{color:orange;}
-.yelp{text-align: center;}
-.menu-list{text-align: center;}
-.menu-title{text-align: center;}
-.menu-toggle{background-color: #657f38;}
-.home-images{padding-top: 2em;}
->>>>>>> a7666e6bda73fb9baed0da87e87f9f051844b81d
 
 footer{
   text-align: center;
   padding-top: 2em;
 }
+
 /*home page css*/
 .logo {
   text-align: center;
@@ -39,9 +33,6 @@ footer{
 }
 .link-footer {
   color: black;
-}
-.yelp {
-  text-align: center;
 }
 .menu-list {
   text-align: center;
